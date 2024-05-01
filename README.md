@@ -3,3 +3,6 @@
 
 ### An issue related when using react-scripts :
 Setting the environment variables CHOKIDAR_USEPOLLING=true and WATCHPACK_POLLING=true
+
+### Usage : 
+docker run -it --rm -v [ app path ] -p 3001:3000 -e CHOKIDAR_USEPOLLING=true [ docker image ]
